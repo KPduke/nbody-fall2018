@@ -33,5 +33,5 @@ expected for celestial bodies. This is due to large values of dt
 when approximating forces. Write down below what you see during
 this simulation.
 
-(replace with observed behavior)
+It runs a little out of whack, and goes out of orbit! Super fast pace.
 
