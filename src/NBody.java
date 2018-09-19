@@ -65,7 +65,7 @@ public class NBody {
 			
 			s.close();
 			
-			// TODO: return array of body objects read
+			// return array of body objects read
 			return bodies;
 	}
 	public static void main(String[] args) throws FileNotFoundException{
@@ -94,12 +94,13 @@ public class NBody {
 		
 			for(int k=0; k < bodies.length; k++) {
 				xforce[k] = bodies[k].calcNetForceExertedByX(bodies);
-				yforce[k] = bodies[k].calcNetForceExertedByX(bodies);
+				yforce[k] = bodies[k].calcNetForceExertedByY(bodies);
 				
 			// loop over all bodies, calculate
 			// net forces and store in xforces and yforces
 			
 			}
+			
 			for(int k = 0; k < bodies.length; k ++) {
 				bodies[k].update(dt, xforce[k], yforce[k]);
 			}
