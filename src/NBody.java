@@ -119,7 +119,7 @@ public class NBody {
 			
 			StdDraw.show(10);
 		}
-	
+		}
 		
 		// prints final values after simulation
 		
@@ -131,7 +131,7 @@ public class NBody {
 		                      bodies[i].getXVel(), bodies[i].getYVel(), 
 		                      bodies[i].getMass(), bodies[i].getName());	
 		}
-	}
+	
 
 		
 	}
